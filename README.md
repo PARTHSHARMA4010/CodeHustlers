@@ -4,9 +4,9 @@ CodeHustlers is a web application designed to provide users with an interactive 
 
 ## Features
 
-- **Feature 1**: [Brief description of feature 1]
-- **Feature 2**: [Brief description of feature 2]
-- **Feature 3**: [Brief description of feature 3]
+- **Feature 1**: Ayurvedic real time analysis
+- **Feature 2**: Stress Measurement
+- **Feature 3**: Anonymous community platform
 
 ## Technologies Used
 
