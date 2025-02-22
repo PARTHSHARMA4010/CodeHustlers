@@ -1,0 +1,172 @@
+.app {
+    /* text-align: center;*/
+     background-color: #F7F6F2;
+     padding: 2rem;
+   }
+   
+   h1 {
+     font-size: 2.5rem;
+     color: #4f8a8b;
+     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+   }
+   
+   h2{
+     color: #4f8a8b;
+     font-size:1.2rem;
+     font-family:'Dancing Script', cursive;
+     margin-bottom: 1rem;
+   }
+   
+   .mood-options {
+     margin: 2rem 0;
+   }
+   
+   
+   
+   .mood-selection-container {
+     margin-top: 1.5rem;
+     text-align: left;
+   }
+   
+   .mood-instruction {
+     font-size: 1rem;
+     color: #4f8a8b;
+     margin-bottom: 1rem;
+     font-style: italic;
+   }
+   
+   .mood-options {
+     display: flex;
+     gap: 1rem;
+     justify-content: left;
+   }
+   
+   .mood-options button {
+     display: flex;
+     align-items: center;
+     gap: 0.5rem;
+     font-size: 1.2rem;
+     padding: 0.8rem 1.2rem;
+     transition: background-color 0.3s ease;
+   }
+   
+   .mood-options button span {
+     font-size: 1.5rem; /* Bigger icons for better visibility */
+   }
+   
+   .mood-options button:hover {
+     background-color: #4f8a8b;
+     color: white;
+   }
+   
+   
+   button {
+     background-color: #4f8a8b;
+     color: white;
+     padding: 0.6rem 1.8rem;
+     margin: 0.5rem;
+     border: none;
+     cursor: pointer;
+     font-size: 1.2rem;
+     border-radius: 10px;
+     transition: background-color 0.3s ease, transform 0.2s;
+   }
+   
+   button:hover {
+     background-color: #66a5a7;
+     transform:scale(1.05);
+   }
+   
+   .recommendations {
+     margin-top: 1rem;
+     color: #4f8a8b;
+     margin-left:40px;
+     text-align: center; /* change*/
+   }
+   
+   .cards {
+     display: flex;
+     justify-content: center;
+     gap: 2rem;
+     
+   }
+   
+   .card {
+     background: rgba(255, 255, 255, 0.2); 
+     background-color: #B0DAC1;/* background-color: #A9C7B8;// semi-transparent white */
+     border-radius: 15px;
+     padding: 1.5rem; /* 1.5 from 1*/
+     width: 250px;
+     backdrop-filter: blur(12px); /* background blur for glass effect ,ade to 12 from 10 */
+     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1); /* soft shadow */
+     border: 1px solid rgba(255, 255, 255, 0.2); /* subtle border for glass effect */
+     transition: transform 0.3s ease, box-shadow 0.3s ease; /* smooth hover effect */
+   }
+   
+   .card:hover {
+     transform: translateY(-25px);
+      /* lift on hover */
+     box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25); /* stronger shadow on hover made to 32 from 24 */
+   } 
+   
+   .card img {
+     width: 100%;
+     height: 150px;
+     border-radius: 10px;
+     object-fit: cover;
+   }
+   
+   .card h3 {
+     font-size: 1.5rem;
+     color: #333;
+   }
+   
+   .card p {
+     font-size: 1rem;
+     color: #666;
+   }
+   
+   .card a {
+     display: inline-block;
+     margin-top: 0.5rem;
+     color: #4f8a8b;
+     text-decoration: none;
+     font-weight: bold;
+   }
+   
+   .card a:hover {
+     color: #66a5a7;
+   } 
+   
+   
+   .right-section {
+     flex: 1;
+     display: flex;
+     justify-content:right;
+     margin-right:0px;
+   }
+   
+   .right-section img {
+     max-width:1200px;
+     height:400px;
+     width:100%;
+   }
+   
+   .left-part{
+     justify-content: left;
+       margin-left: 90px;
+       margin-top:60px;
+   }
+   
+   .parts{
+      display:flex;
+      justify-content: space-between;
+   }
+   
+   .select-mood {
+     font-family: 'Dancing Script', cursive;
+     font-size: 1.8rem;
+     color: #4f8a8b;
+     margin-bottom: 1rem;
+     text-align: center;
+   }
